@@ -1,0 +1,33 @@
+cap_symbols:
+  threads:
+    - - root_cnode
+      - 1
+    - - root_vspace
+      - 2
+    - - root_tcb
+      - 3
+    - - tcb_untyped
+      - 4
+    - - buf2_frame_cap
+      - 5
+    - - tcb_cap_slot
+      - 6
+    - - tcb_ipc_frame
+      - 7
+region_symbols:
+  threads:
+    - - buf2_frame
+      - 4096
+      - size_12bit
+    - - thread_ipc_buff_sym
+      - 4096
+      - size_12bit
+    - - tcb_stack_base
+      - 65536
+      - size_12bit
+    - - stack
+      - 65536
+      - size_12bit
+    - - mainIpcBuffer
+      - 4096
+      - size_12bit

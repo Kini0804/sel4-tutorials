@@ -1,0 +1,41 @@
+cap_symbols:
+  client:
+    - - endpoint
+      - 1
+  timer:
+    - - endpoint
+      - 1
+    - - ntfn
+      - 2
+    - - device_untyped
+      - 3
+    - - timer_frame
+      - 4
+    - - cnode
+      - 5
+    - - vspace
+      - 6
+    - - frame
+      - 7
+    - - irq_control
+      - 8
+    - - irq_handler
+      - 9
+region_symbols:
+  client:
+    - - stack
+      - 65536
+      - size_12bit
+    - - mainIpcBuffer
+      - 4096
+      - size_12bit
+  timer:
+    - - timer_vaddr
+      - 4096
+      - size_12bit
+    - - stack
+      - 65536
+      - size_12bit
+    - - mainIpcBuffer
+      - 4096
+      - size_12bit

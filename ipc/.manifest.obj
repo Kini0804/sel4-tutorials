@@ -1,0 +1,44 @@
+cap_symbols:
+  client_1:
+    - - endpoint
+      - 1
+    - - cnode
+      - 2
+    - - badged_endpoint
+      - 3
+  client_2:
+    - - endpoint
+      - 1
+    - - cnode
+      - 2
+    - - badged_endpoint
+      - 3
+  server:
+    - - endpoint
+      - 1
+    - - cnode
+      - 2
+    - - free_slot
+      - 3
+region_symbols:
+  client_1:
+    - - stack
+      - 65536
+      - size_12bit
+    - - mainIpcBuffer
+      - 4096
+      - size_12bit
+  client_2:
+    - - stack
+      - 65536
+      - size_12bit
+    - - mainIpcBuffer
+      - 4096
+      - size_12bit
+  server:
+    - - stack
+      - 65536
+      - size_12bit
+    - - mainIpcBuffer
+      - 4096
+      - size_12bit

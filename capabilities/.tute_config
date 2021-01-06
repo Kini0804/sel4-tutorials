@@ -1,0 +1,1 @@
+set(TUTE_COMMAND "PYTHONPATH=${PYTHON_CAPDL_PATH};python3;/host/projects/sel4-tutorials/template.py;--tut-file;/host/projects/sel4-tutorials/tutorials/capabilities/capabilities;--out-dir;${output_dir};--input-files;${input_files};--output-files;${output_files};--arch;x86_64;;;")
